@@ -1,6 +1,6 @@
 
 # GITHUB-SEARCH
-#### This project interlinks clients to software developers, Friday November6th 202
+#### This project interlinks clients to software developers, Friday November 14th 2020
 
 ## Author
 
