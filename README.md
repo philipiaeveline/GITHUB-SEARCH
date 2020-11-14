@@ -6,7 +6,7 @@
 
 [Philipia Eveline](https://github.com/philipiaeveline/GITHUB-SEARCH)
 ## Description
-GitHub is a web-based version-control and collaboration platform for software developers. ... GitHub facilitates social coding by providing a web interface to the Git code repository and management tools for collaboration. GitHub can be thought of as a serious social networking site for software developers.
+GitHub is a web-based version-control and collaboration platform for software developers. GitHub facilitates social coding by providing a web interface to the Git code repository and management tools for collaboration. GitHub can be thought of as a serious social networking site for software developers.
 ## Live Page 
 https://github.com/philipiaeveline/GITHUB-SEARCH
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.1.
