@@ -25,7 +25,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Installation / Setup instruction
 * Open Terminal {Ctrl+Alt+T}
 * git clone ```https://github.com/philipiaeveline/GITHUB-SEARCH```
-* cd Quotes-app
+* cd Github-Search
 * code . or atom . based on the text editor you have.
 ## Technologies Used
 * [HTML5](https://github.com/topics/html5)
