@@ -1,10 +1,25 @@
 import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
+import { CommonModule } from '@angular/common';
+import {RouterModule, Routes} from '@angular/router';
+import { SearchComponent} from './search/search.component'
+import { RepositoriesComponent} from './repositories/repositories.component';
+import { from } from 'rxjs';
 
-const routes: Routes = [];
+
+const routes: Routes = [
+    {path: 'users', component: SearchComponent},
+    {path: 'repository', component: RepositoriesComponent},
+    {path: '', redirectTo: '/users', pathMatch: 'full'},
+
+
+
+];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  imports: [
+    CommonModule,
+      RouterModule.forRoot(routes)
+  ],
+  declarations: []
 })
-export class AppRoutingModule { }
+export class RoutingModule { }
