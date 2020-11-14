@@ -1,6 +1,6 @@
 <form (ngSubmit)="searchFor(searchForm)" #searchForm="ngForm">
     <div class="form-group">
-      <input type="text" class="form-control" name="find" placeholder="Enter username"[(ngModel)]= "searchInfo.find"  #find='ngModel'>
+      <input type="text" class="form-control" name="find" [(ngModel)]= "searchInfo.find"  #find='ngModel' placeholder="Enter username" required>
       <button type="submit" class="btn btn-primary"> Search</button>
     </div>
   </form>
