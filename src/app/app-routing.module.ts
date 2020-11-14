@@ -7,19 +7,16 @@ import { from } from 'rxjs';
 
 
 const routes: Routes = [
-    {path: 'users', component: SearchComponent},
+    {path: 'search', component: SearchComponent},
     {path: 'repository', component: RepositoriesComponent},
-    {path: '', redirectTo: '/users', pathMatch: 'full'},
+    {path: '', redirectTo: '/search', pathMatch: 'full'},
 
 
 
 ];
 
 @NgModule({
-  imports: [
-    CommonModule,
-      RouterModule.forRoot(routes)
-  ],
-  declarations: []
+  imports: [RouterModule.forRoot(routes)],
+  exports: [RouterModule]
 })
 export class RoutingModule { }
