@@ -14,6 +14,7 @@ import {SearchRequestService} from './search-request.service';
 import { NavbarComponent } from './navbar/navbar.component';
 import { from } from 'rxjs';
 import { OnHoverDirective } from './on-hover.directive';
+import { DateAgoPipe } from './pipes/date-ago.pipe';
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,7 +22,8 @@ import { OnHoverDirective } from './on-hover.directive';
     SearchFormComponent,
     SearchComponent,
     NavbarComponent,
-    OnHoverDirective
+    OnHoverDirective,
+    DateAgoPipe
   
 
   ],
