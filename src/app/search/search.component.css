@@ -36,6 +36,9 @@ p {
     margin-top: 2rem;
 }
 
+p1{
+    color: brown;
+}
 
 /* profile*/
 img {
@@ -49,3 +52,6 @@ img {
 
 /**/
 
+tr:hover{
+    background-color: greenyellow;
+}

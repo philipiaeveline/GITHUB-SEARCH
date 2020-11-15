@@ -13,13 +13,15 @@ import { SearchComponent } from './search/search.component';
 import {SearchRequestService} from './search-request.service';
 import { NavbarComponent } from './navbar/navbar.component';
 import { from } from 'rxjs';
+import { OnHoverDirective } from './on-hover.directive';
 @NgModule({
   declarations: [
     AppComponent,
     RepositoriesComponent,
     SearchFormComponent,
     SearchComponent,
-    NavbarComponent
+    NavbarComponent,
+    OnHoverDirective
   
 
   ],
