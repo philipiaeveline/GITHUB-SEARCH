@@ -23,7 +23,7 @@
             </tr>
             <tr>
               <th scope="row">Date created:</th>
-              <td>{{users.created_at |dateAgo}}</td>
+              <td>{{users.created_at |date|dateAgo}}</td>
             </tr>
             <tr>
               <th scope="row">Followers:</th>
@@ -60,7 +60,7 @@
                   <br>
                 <p class="desc">Description: {{repository.description}}</p>
                 <br>
-                <p>Date Created: {{repository.created_at | date}}</p>
+                <p>Date Created: {{repository.created_at |dateAgo}}</p>
                 <br>
                 <p1><b>Language : {{repository.language}}</b></p1>
                 

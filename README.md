@@ -39,4 +39,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 If you have any question or contributions, please email me at [philipiaeveline13@gmail.com]
 ## License
 * *MIT License:*
-* Copyright (c) 2020 **Eveline Philipia**
+* Copyright &copy; philipiaeveline13@gmail.com
