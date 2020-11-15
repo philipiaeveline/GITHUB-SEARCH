@@ -15,7 +15,7 @@ export class SearchRequestService {
     searchRepo: any;
 
     constructor(private http: HttpClient) {
-        this.repository = new Repository('', '', '', new Date());
+        this.repository = new Repository('', '', '','', new Date());
         this.users = new User('', '', '', 0, '', new Date(), 0, 0);
     }
 
@@ -24,6 +24,7 @@ export class SearchRequestService {
             name: string;
             html_url: string;
             description: string;
+            language:string;
             created_at: Date;
             login: string;
             public_repos: number;
@@ -54,6 +55,7 @@ export class SearchRequestService {
             name: string;
             description: string;
             created_at: Date;
+            language: string;
         }
 
         const myPromise = new Promise((resolve, reject) => {
@@ -74,6 +76,7 @@ export class SearchRequestService {
         }
 
         const promise = new Promise((resolve, reject) => {
+          
             this.http.get<ApiResponse>('https://api.github.com/search/repositories?q=' + searchName + ' &per_page=10 ' + environment.myApi).toPromise().then(getRepoResponse => {
                 this.searchRepo = getRepoResponse.items;
 
